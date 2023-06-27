@@ -25,6 +25,7 @@ class _StoryPageState extends State<StoryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        // Step 1: Add a background image
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('images/background.png'),
